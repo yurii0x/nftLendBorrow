@@ -1,0 +1,6 @@
+{
+    "HONEY_MARKET_ID": "GrKPvcdHVb4cwR5a2CCgCTvdkSqhNDRgSUiUVzXRWLk6",
+    "env": "devnet",
+    "keypairPath": "~/.config/solana/id.json",
+    "loglevel": "DEBUG"
+}

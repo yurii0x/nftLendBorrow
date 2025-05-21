@@ -1,0 +1,1 @@
+export const BUCKET_SEED = Buffer.from("bucket-seed-v3");

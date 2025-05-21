@@ -1,0 +1,35 @@
+[package]
+name = "honey"
+version = "0.1.0"
+description = "Honey NFT Collateralized Lending Program"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "honey"
+doctest = false
+
+[features]
+no-entrypoint = []
+no-idl = []
+cpi = []
+default = ["cpi"]
+
+[dependencies]
+anchor-lang = {version = "0.24.2", features = ["init-if-needed"] }
+anchor-spl = "0.24.2"
+solana-program = "1.9.25"
+thiserror = "1.0"
+bytemuck = { version = "1.7", features = ["derive"] }
+static_assertions = "1.1.0"
+bitflags = "1.3"
+mpl-token-metadata = { version = "1.2.10", features = ["no-entrypoint"] }
+switchboard-v2 = "^0.1.10"
+vipers = "2.0.4"
+rust_decimal = "1.25.0"
+
+jet-math = { version = "1", package = "jet-proto-math" }
+jet-proc-macros = { version = "1", package = "jet-proto-proc-macros" }
+
+[profile.release]
+overflow-checks = true

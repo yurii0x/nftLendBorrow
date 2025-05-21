@@ -1,0 +1,26 @@
+{
+  "version": "0.0.0",
+  "name": "test_writer",
+  "instructions": [
+    {
+      "name": "write",
+      "accounts": [
+        {
+          "name": "target",
+          "isMut": true,
+          "isSigner": true
+        }
+      ],
+      "args": [
+        {
+          "name": "offset",
+          "type": "u64"
+        },
+        {
+          "name": "data",
+          "type": "bytes"
+        }
+      ]
+    }
+  ]
+}

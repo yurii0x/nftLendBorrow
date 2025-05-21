@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "module": "NodeNext",
+    "outDir": "./../build",
+    "declaration": false,
+    "esModuleInterop": true,
+    "noImplicitAny": false,
+    "removeComments": false,
+    "isolatedModules": false,
+    "experimentalDecorators": true,
+    "downlevelIteration": true,
+    "emitDecoratorMetadata": true,
+    "noLib": false,
+    "preserveConstEnums": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "resolveJsonModule": true,
+    "lib": ["dom", "es2019"],
+    "moduleResolution": "Node",
+    "types": ["node"],
+    "paths": {
+      "@solana/spl-token": [
+        "./node_modules/@solana/spl-token"
+      ]
+    }
+  },
+  "exclude": ["node_modules", "typings/browser", "typings/browser.d.ts"],
+  "atom": {
+    "rewriteTsconfig": false
+  },
+  "ts-node": {
+    "esm": true
+  }
+}

@@ -1,0 +1,38 @@
+anchor_version = "0.25.0"
+
+[provider]
+cluster = "devnet"
+wallet = "~/.config/solana/id.json"
+
+[programs.devnet]
+honey = "F1PypuidC78bosb7cHfU2ERZSd1RWLdbsq82nR9Tdgkh"
+
+[programs.mainnet]
+honey = "F1PypuidC78bosb7cHfU2ERZSd1RWLdbsq82nR9Tdgkh"
+
+[programs.localnet]
+honey = "DNWW41RW1fqshvUhxCVhVasnNHnVWDsfg4UbJqm99Z3G"
+
+[[test.genesis]]
+address = "DESVgJVGajEgKGXhb6XmqDHGz3VjdgP7rEVESBgxmroY"
+program = "./deps/serum_dex.so"
+
+[[test.genesis]]
+address = "metaqbxxUerdq28cj1RbAWkYQm3ybzjb6a8bt518x1s"
+program = "./deps/mpl_token_metadata.so"
+
+[test.validator]
+url = "https://api.devnet.solana.com"
+
+
+[[test.validator.clone]]
+address = "SVTy4zMgDPExf1RaJdoCo5HvuyxrxdRsqF1uf2Rcd7J"
+
+[[test.validator.clone]]
+address = "2TfB33aLaneQb5TNVwyDz3jSZXS6jdW2ARw1Dgf84XCG"
+
+[test]
+startup_wait = 1000000
+
+[scripts]
+test = "scripts/run-integ-tests.sh"

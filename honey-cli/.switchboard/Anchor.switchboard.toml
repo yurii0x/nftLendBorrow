@@ -1,0 +1,51 @@
+[provider]
+cluster = "localnet"
+wallet = "/root/.config/solana/id.json"
+
+[test]
+startup_wait = 10000
+
+[test.validator]
+url = "https://devnet.genesysgo.net/"
+
+[[test.validator.clone]] # programID
+address = "2TfB33aLaneQb5TNVwyDz3jSZXS6jdW2ARw1Dgf84XCG"
+
+[[test.validator.clone]] # idlAddress
+address = "CKwZcshn4XDvhaWVH9EXnk3iu19t6t5xP2Sy2pD6TRDp"
+
+[[test.validator.clone]] # programState
+address = "BYM81n8HvTJuqZU1PmTVcwZ9G8uoji7FKM6EaPkwphPt"
+
+[[test.validator.clone]] # switchboardVault
+address = "FVLfR6C2ckZhbSwBzZY4CX7YBcddUSge5BNeGQv5eKhy"
+
+[[test.validator.clone]] # tokenWallet
+address = "6p5HHcyL1LpCXjdBhVttZAmBfAjFNcFQp8heBjwkPDA1"
+
+[[test.validator.clone]] # queue
+address = "DfNZfAnw4eiPavRvYZxrwWkDVmPE7oDb1vGiYZgCyg8P"
+
+[[test.validator.clone]] # queueAuthority
+address = "CPXnqubz1p4HLYj69d5egqinnVuC2qvKi9iVmk3FVUck"
+
+[[test.validator.clone]] # queueBuffer
+address = "f7YqcK186JUPeLPwQKBpyBJVKxuvsb1ByiUFjgjjV14"
+
+[[test.validator.clone]] # crank
+address = "9zjMv5GncaPpWBHCJPFVD5nJkTkLVp9hrvqNNZ8xajpB"
+
+[[test.validator.clone]] # crankBuffer
+address = "6ZiSikvaprTjoJ8Zt5rEzsiM63z4YqrRNRK8AwFWnY8c"
+
+[[test.validator.clone]] # oracle
+address = "5xKViQxAKcrN4o7RyPLPazb3uLcv2SPv3Bfm5TKmnb8q"
+
+[[test.validator.clone]] # oracleAuthority
+address = "CPXnqubz1p4HLYj69d5egqinnVuC2qvKi9iVmk3FVUck"
+
+[[test.validator.clone]] # oracleEscrow
+address = "BRDsQZMsrWpstpryVFddvAmjphgbBvbGQyWnVL3n4vyZ"
+
+[[test.validator.clone]] # oraclePermissions
+address = "t9oBt2YaoBJePQK6N48PfZSXJ6cnxHq7YMvH87vkJzR"

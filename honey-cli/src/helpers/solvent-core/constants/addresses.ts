@@ -1,0 +1,11 @@
+// eslint-disable-next-line import/prefer-default-export
+export const ADDRESSES = {
+    METADATA_PROGRAM_ID: 'metaqbxxUerdq28cj1RbAWkYQm3ybzjb6a8bt518x1s',
+    SOLVENT_CONTRACT_PROGRAM_ID: 'nft3agWJsaL1nN7pERYDFJUf54BzDZwS3oRbEzjrq6q',
+    SVT_MINT_ADDRESS: 'svtMpL5eQzdmB3uqK9NXaQkq8prGZoKQFNVJghdWCkV',
+    XSVT_MINT_ADDRESS: 'xsvtzXdo6tMD59k6NnYmRTi4ZduEoUSvSb6Keny73sr',
+    TOKEN_VAULT_FLEXIBLE: 'A1n75vcc8bYMVQRqCXf4X4yDbGSR4hjXS5S2Qyvs8rb7',
+    TOKEN_VAULT_LOCKED: 'GtWk54ZBJ4bmd4wjVnJCuev5rS1qEKuK7j88prY9zxtB',
+    FLEXIBLE_TOKEN_STAKING_PROGRAM_ID: 'BtEqZg3VwQcCFfsP7cAKvXmD8VnCckuR3QFof45BNzjJ',
+    LOCKED_TOKEN_STAKING_PROGRAM_ID: 'AbntkGcaYc5RuAzyomxY5sEmvkpd87DeDKh2FVuQm4pU',
+};
